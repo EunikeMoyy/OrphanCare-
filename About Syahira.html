@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font color: white;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2><center>Creator Detail</center></h2>
+<center><img src="Picture1.png" alt="Syahira" style="width:40%"></center>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Full Name</label>
+    </div>
+    <div class="col-75">
+    <input type="text" id="fname" name="firstname" placeholder="Nur Syahira binti Samsol"> 
+    </div>
+  </div>
+<div class="row">
+    <div class="col-25">
+      <label for="fname">Student ID</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="2020899202">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Programme</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Bachlor Degree in Office System (Hons)">
+    </div>
+  </div>
+<div class="row">
+    <div class="col-25">
+      <label for="fname">Course</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="IMS456 (Basic Website Design and Content Development)">
+    </div>
+  </div>
+<div class="row">
+    <div class="col-25">
+      <label for="fname">Part</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="2">
+    </div>
+  </div>
+<div class="row">
+    <div class="col-25">
+      <label for="fname">University</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Universiti Teknologi MARA">
+    </div>
+  </div>
+<div class="row">
+    <div class="col-25">
+      <label for="fname">Age</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="22">
+    </div>
+  </div>
+<div class="row">
+    <div class="col-25">
+      <label for="fname">Email Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="syahira@gmail.com">
+    </div>
+  </div>
+  <div class="row">
+  <center><p><a href="aboutus.html" target="_blank" button class="button">Back</button></a></p></center>
+  </form>
+</div>
+
+</body>
+</html>

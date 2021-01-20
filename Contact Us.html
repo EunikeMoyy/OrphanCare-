@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<title>Contact Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+      
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: lightblue;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+body {
+  background-image: url("bg6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+</style>
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <a href="orphancare2.html" class="w3-bar-item w3-button w3-padding-large w3-lightblue">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>EXIT</p>
+  </a> 
+ 
+  
+    <i class="fa fa-map-marker w3 xxlarge"></i>
+<center><icon class="w3-button w3-white w3-padding-small w3-medium w3-opacity w3-hover-opacity-off" onclick="document.getElementById('LOCATION').style.display='block'">LOCATION</icon></center>
+    </div>
+<!-- LOCATION Modal -->
+<div id="LOCATION" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('LOCATION').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <p><h2 class="w3-wide">LOCATION:</h2></p>
+      <p><h4>OrphanCare Foundation, No 54, Jalan 5/60, 46000 Petaling Jaya, Selangor, Malaysia.</p></h4>
+      <p><img src="location.jpeg" alt="location" width="800" height="600"></p>
+    </div>
+  </div>
+</div>
+  </a>
+
+ 
+    <i class="fa fa-phone w3-xxlarge"></i>
+<center><icon class="w3-button w3-white w3-padding-small w3-medium w3-opacity w3-hover-opacity-off" onclick="document.getElementById('PHONE').style.display='block'">PHONE</icon></center>
+    </div>
+<!-- PHONE Modal -->
+<div id="PHONE" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('PHONE').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">PHONE NUMBER:</h2>
+      <p><h3>TEL: +60377701900</p></h3>
+      <p><h3>FAX: +60377801900</p></h3>
+    </div>
+  </div>
+</div>
+  </a>
+
+
+    <i class="fa fa-envelope w3-xxlarge"></i>
+<center><icon class="w3-button w3-white w3-padding-small w3-medium w3-opacity w3-hover-opacity-off" onclick="document.getElementById('EMAIL').style.display='block'">EMAIL</icon></center>
+    </div>
+<!-- EMAIL Modal -->
+<div id="EMAIL" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('EMAIL').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">EMAIL:</h2>
+      <p><h4>1. admin@orphancare.org.my</p></h4>
+      <p><h4>2. adoption@orphancare.org.my</p></h4>
+    </div>
+  </div>
+</div>
+  </a>
+</nav>
+
+ <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+    <h2 class="w3-text-light-grey">Any enquiries, please do not hesitate to contact us.</h2>
+    <hr style="width:780px" class="w3-opacity">
+
+    
+    <p>Let's get in touch. Send us a message. We will assist you as soon as possible:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-small" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+<p>
+<h2>Visit us at:</h2>
+<footer class="w3-container w3-padding-20 w3-center w3-opacity w3-light-grey w3-xlarge">
+<a href="https://www.facebook.com/OrphanCARE.Foundation.Malaysia/" class="fa fa-facebook"></a>
+<a href="https://www.linkedin.com/company/orphancare-foundation" class="fa fa-linkedin"></a>
+<a href="https://www.youtube.com/channel/UC6Y_tNvibHyvOgUv98KR51g" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/orphancare.foundation/" class="fa fa-instagram"></a>
+
+  <p class="w3-medium">Design by Eunike | Priscilla | Syahira. <i>Disclaimer: This is not an official website of OrphanCare. Please visit the original website of OrphanCare.</i> <a href="https://https://orphancare.org.my/" target="_blank">OrphanCare Foundation</a></p>
+</footer>
+
+</style>
+</head>
